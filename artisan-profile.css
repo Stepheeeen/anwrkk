@@ -1,0 +1,671 @@
+:root {
+  --main-color: #ee3e38;
+  --footer-color: #222020;
+  --btn-color: #4caf50;
+  --secondary-color: #dddddd;
+  --white-color: #ffffff;
+  --blue: #0000ee;
+  --black: #000000;
+}
+
+
+.display{
+  width: fit-content;
+}
+
+
+
+.price-update{
+  position: relative;
+  right: 5rem;
+  top: 1rem;
+  border: none;
+  background-color: #fff;
+}
+
+
+
+.artsian__info__section {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 16px;
+  margin: 3rem;
+}
+
+.profile__img {
+  margin: 0 auto;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 auto;
+  text-wrap: nowrap;
+}
+
+.avaliable {
+  font-weight: 300;
+  font-size: 10px;
+}
+
+.status {
+  border-radius: 50%;
+  height: 7.48px;
+  width: 7.48px;
+  background-color: var(--btn-color);
+}
+
+
+.proffesion {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  text-align: center;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  gap: 6px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+}
+.location img,
+#edit__btn img {
+  width: 13px;
+}
+
+hr {
+  height: 24px;
+}
+
+
+.followers {
+  display: flex;
+  gap: 6px;
+  height: 18px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+}
+
+.followers a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  color: #000000;
+}
+
+.update{
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #4caf50;
+}
+
+#edit__btn,
+#view__service__btn,
+#add__service__btn {
+  width: 208px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 auto;
+  padding-block: 12px;
+  border: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info__heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.edit__btn-arti {
+  width: 208px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 auto;
+  padding-block: 12px;
+  border: none;
+  text-decoration: none;
+}
+.edit__btn-arti:hover {
+  background-color: #e0140d;
+
+}
+
+.no-jobs-yet {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  text-wrap: nowrap;
+  color: var(--main-color);
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid var(--main-color);
+}
+
+.edit__btn-arti-display {
+  width: 208px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 13px;
+  text-align: center;
+  margin: 0 auto;
+  padding-block: 12px;
+  border: none;
+}
+.edit__btn-arti-display a {
+  text-decoration: none;
+  color: #000;
+}
+.edit__btn-arti-display a:hover {
+  
+  text-decoration: underline;
+}
+
+.edit__btn-arti img{
+  width: 15px;
+}
+
+.email,
+.contact,
+.Location,
+.dob__content,
+.edit__btn {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  gap: 6px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.email__icon,
+.contact__icon,
+.location__icon,
+.calendar__icon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.email__icon{
+  text-wrap: nowrap;
+}
+
+.email,
+.contact,
+.Location {
+  justify-content: space-between;
+}
+
+.email {
+  gap: 82px;
+}
+
+.Location {
+  gap: 75px;
+}
+
+.contact {
+  gap: 68px;
+}
+
+.dob__content {
+  gap: 44px;
+}
+
+.bold {
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+}
+
+.about {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.textarea {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 10px 36px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.btn__container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#book__now__btn {
+  width: 84px;
+  height: 40px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 9px;
+  padding-block: 4px;
+  margin-block: 12px;
+}
+
+.booked__box-arti,
+.pending__booking__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: auto;
+  height: 40px;
+  border: 1px solid rgb(227, 220, 220);
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin: 1rem;
+  margin-block: 30px;
+}
+
+.booked__box-arti img {
+  width: 12px;
+  height: 12px;
+}
+
+.booked__artisian {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.artisian__booked__1-arti {
+  background-color: var(--main-color);
+  width: 260px;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  gap: 28px;
+  padding: 16px 9px;
+}
+
+.image__wrapper {
+  width: 118px;
+  height: 104px;
+  /* border: 1px solid black; */
+}
+
+.image__wrapper img {
+  width: 118px;
+  height: 104px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.info__rating__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.booked__artisian__profession {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  text-wrap: nowrap;
+}
+.booked__artisian__profession-complete,
+.booked__artisian__location-complete {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  color: #706e6e;
+  text-wrap: nowrap;
+}
+.comment{
+  position: relative;
+  bottom: 75px;
+  right: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 20;
+  font-size: 15px;
+  border: 2px whitesmoke solid;
+  padding: 5px;
+  border-radius: 5px;
+  color: #706e6e;
+
+}
+
+.rating__stars-complete {
+  display: flex;
+  font-size: larger;
+  position: relative;
+  right: 208px;
+  top: 100px;
+  font-size: 10px;
+  margin: 2px;
+}
+
+#booked__btn-complete {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border: 1px rgb(216, 210, 210) solid;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 8px;
+  width: 50px;
+  text-align: center;
+  color: #000;
+  text-wrap: nowrap;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+.booked__artisian__name,
+.booked__artisian__location,
+.booked__artisian__number {
+  display: flex;
+  gap: 6px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #ffffff;
+}
+.booked__artisian__name-complete{
+  display: flex;
+  gap: 6px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+}
+
+.booked__artisian__name img,
+.booked__artisian__location img,
+.booked__artisian__number img {
+  object-fit: contain;
+}
+
+.rating__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete__btn {
+  object-fit: contain;
+  width: 14px;
+  height: 14px;
+  align-self: flex-end;
+}
+
+.rating__stars {
+  display: flex;
+}
+
+#paid__btn {
+  width: 63px;
+  height: 32px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: var(--main-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 40px;
+  align-self: flex-end;
+}
+
+.pending__artisian {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  height:fit-content;
+}
+
+.pending__wrapper_arti {
+  width: 310px;
+  height: auto;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  display: flex;
+  gap: 28px;
+  padding: 16px 9px;
+}
+.pending__wrapper_arti .info__rating__wrapper {
+  position: relative;
+  right: 3rem;
+}
+.pending__wrapper_arti .booked__and__cancel__btn {
+  position: relative;
+  right: 3rem;
+}
+
+
+.pending__wrapper_complete {
+  width: 295px;
+  height: 130px;
+  background-color: var(--white-color);
+  border-radius: 10px;
+  display: flex;
+  gap: 28px;
+  padding: 16px 9px;
+  border: 1px var(--main-color) solid;
+}
+
+.pending__content__1 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+#complete__service__btn {
+  height: 32px;
+  background-color: var(--white-color);
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  color: var(--main-color);
+  text-wrap: nowrap;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+.booked__and__cancel__btn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#booked__btn,
+#Cancel__btn {
+  background-color: var(--white-color);
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  color: var(--main-color);
+  text-wrap: nowrap;
+  padding: 6px 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.hide__on__mobile {
+  visibility: hidden;
+}
+
+#see__all__btn {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 6px;
+  width: 68px;
+  height: 21px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  color: var(--main-color);
+  text-wrap: nowrap;
+  align-self: flex-end;
+}
+
+@media (min-width: 768px) {
+  .hidden {
+    display: none;
+  }
+
+  .hide__on__mobile {
+    visibility: visible;
+  }
+
+  .large__screen__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .booked__box {
+    margin: 32px 0;
+  }
+
+  .large__screen__content__1 {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+  }
+
+  .artsian__info__section {
+    padding-block: 20px;
+    padding-inline: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border-radius: 20px;
+    border: 5px solid rgba(245, 245, 245, 1);
+  }
+  
+  .artisian__action__btn {
+    display: flex;
+    gap: 6px;
+  }
+
+  .name__and__location {
+    margin-right: 40px;
+  }
+  
+
+  #edit__btn,
+  #view__service__btn,
+  #add__service__btn {
+    width: 130px;
+    height: 40px;
+    padding-block: 18px;
+  }
+
+  .profile__img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .profile__img img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 222px;
+  }
+
+  .textarea {
+    width: 364px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .large__screen__wrapper {
+    gap: 120px;
+  }
+
+  .name__and__location {
+    margin-right: 220px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .name__and__location {
+    margin-right: 520px;
+  }
+
+  .pending__booking__btn {
+    width: 100%;
+  }
+  .pending__artisian {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
