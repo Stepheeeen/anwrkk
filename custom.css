@@ -1,3 +1,133 @@
+/* Styling for main container */
+.main-container {
+        display: grid;
+        place-items: center;
+    }
+    
+    /* Styling for artisan profile container */
+    .artisan-profile-cont {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 98%;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px -5px #000;
+    }
+    
+    /* Styling for artisan profile */
+    .artisan-profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Styling for artisan image */
+    .artisan-image {
+        margin-right: 15px;
+    }
+    
+    /* Styling for artisan name */
+    .artisan-name {
+        font-size: 23px;
+        font-weight: bold;
+    }
+    
+    /* Styling for location information */
+    .location-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 200;
+    }
+    
+    /* Styling for location icon */
+    .location-icon {
+        margin-right: 5px;
+    }
+    
+    /* Styling for book now button */
+    .book-now-btn {
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        background: #ee3e38;
+        width: 158px;
+        height: 55px;
+        border-radius: 10px;
+        font-family: sans-serif;
+        border: none;
+        cursor: pointer;
+    }
+    
+    /* Styling for about me container */
+    .about-me-container {
+        width: 100%;
+    }
+    
+    /* Styling for about me */
+    .about-me {
+        display: grid;
+        place-items: center;
+        box-shadow: 0 0 8px -4px #000;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    
+    /* Styling for about me text */
+    .about-me-text {
+        width: 60%;
+        padding: 10px;
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
+    
+    /* Styling for contact info container */
+    .contact-info-container {
+        display: flex;
+        box-shadow: 0 0 8px -4px #000;
+        padding: 25px;
+        border-radius: 10px;
+    }
+    
+    /* Styling for contact info list */
+    .contact-info-list {
+        color: rgba(0, 0, 0, 0.5);
+    }
+    
+    /* Styling for contact icon */
+    .contact-icon {
+        margin-right: 5px;
+    }
+    
+    /* Styling for pending bookings container */
+    .pending-bookings-container {
+        width: 50%;
+        display: grid;
+        place-content: center;
+        padding: auto;
+    }
+    
+    /* Styling for pending bookings title */
+    .pending-bookings-title {
+        font-size: 16px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid #ee3e38;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    /* Styling for pending bookings icon */
+    .pending-bookings-icon {
+        height: 15px;
+        margin-right: 10px;
+    }
+    
 ul{
         width: 100%;
 }

@@ -1,190 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Document</title>
-    <link rel="stylesheet" href="custom.css" />
-  </head>
-
-  <body>
-    <main style="display: grid; place-items: center">
-      <div
-        class="artisan_profile_cont"
-        style="
-          display: flex;
-          justify-content: space-between;
-          align-items: center; 
-          width: 98%;
-          padding: 20px;
-          border-radius: 15px;
-          box-shadow: 0 0 10px -5px #000;
-        "
-      >
-        <div
-          class="artisan_profile"
-          style="display: flex; justify-content: center; align-items: center"
-        >
-          <img
-            src="Rectangle 80.png"
-            alt=""
-            class="artisan_image"
-            style="margin-right: 15px"
-          />
-          <p class="artisan_name" style="font-size: 23px; font-weight: bold">
-            Seun John
-            <br />
-            <span
-              style="
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                font-size: 16px;
-                font-weight: 200;
-              "
-            >
-              <img src="distance.png" alt="" style="margin-right: 5px" />Lagos,
-              Nigeria
-            </span>
-          </p>
+    <link rel="stylesheet" href="custom.css"/>
+</head>
+<body>
+<main class="main-container">
+    <div class="artisan-profile-cont">
+        <div class="artisan-profile">
+            <img src="Rectangle 80.png" alt="" class="artisan-image"/>
+            <p class="artisan-name">
+                Seun John
+                <br/>
+                <span class="location-info">
+                  <img src="distance.png" alt="" class="location-icon"/>Lagos, Nigeria
+                </span>
+            </p>
         </div>
-
-        <button
-          style="
-            font-size: 16px;
-            font-weight: 600;
-            color: #fff;
-            background: #ee3e38;
-            width: 158px;
-            height: 55px;
-            border-radius: 10px;
-            font-family: sans-serif;
-            border: none;
-            cursor: pointer;
-          "
-        >
-          Book Now
-        </button>
-      </div>
-
-      <section
-        class="artisan_profile_cont"
-        style="
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          width: 98%;
-          padding: 20px;
-          border-radius: 15px;
-          box-shadow: 0 0 10px -5px #000;
-          margin-top: 30px;
-        "
-      >
-        <div>
-          <div
-            style="
-              display: grid;
-              place-items: center;
-              width: 100%;
-              box-shadow: 0 0 8px -4px #000;
-              padding: 15px;
-              border-radius: 10px;
-              margin-bottom: 20px;
-            "
-          >
-            <h2 style="font-weight: 600">About me</h2>
-            <div
-              style="
-                width: 60%;
-                padding: 10px;
-                border: 1px solid #000;
-                border-radius: 10px;
-              "
-            >
-              Experienced and passionate barber dedicated to delivering
-              impeccable grooming services tailored to each client's unique
-              style and preferences. With a keen eye for detail and a commitment
-              to professionalism, I strive to create a welcoming and comfortable
-              atmosphere in which clients can relax and enjoy a personalized
-              grooming experience.
+        <button class="book-now-btn">Book Now</button>
+    </div>
+    <section class="artisan-profile-cont">
+        <div class="about-me-container">
+            <div class="about-me">
+                <h2>About me</h2>
+                <div class="about-me-text">
+                    Experienced and passionate barber dedicated to delivering impeccable grooming services tailored to
+                    each client's unique style and preferences. With a keen eye for detail and a commitment to
+                    professionalism, I strive to create a welcoming and comfortable atmosphere in which clients can relax
+                    and enjoy a personalized grooming experience.
+                </div>
             </div>
-          </div>
-          <div
-            style="
-              display: flex;
-              width: ;
-              box-shadow: 0 0 8px -4px #000;
-              padding: 25px;
-              border-radius: 10px;
-            "
-          >
-            <div style="color: rgba(0, 0, 0, 0.5);">
-                    <ul>
-                            <li>
-                                     <img src="Vector (5).png" alt="" /> <span>Email:</span>
-                                     
-                                     <p>
-                                       seunjohn@gmail.com 
-                                     </p>
-                            </li>
-                             <li>
-                                      <img src="Vector (2).png" alt="" /> <span>Contact :</span> 
-                                      
-                                      <p>(+234) 07045555555</p>
-                             </li>
-                              <li>
-                                       <img src="distance.png" alt="" /> <span>Location :</span> 
-                                       <p>Lagos, Nigeria</p>
-                              </li>
-                               <li>
-                                       <img src="Vector (3).png" alt="" /> <span>Date of Birth :</span>
-                                       <p>
-                                          04/08/1994
-                                       </p>
-                               </li>
-                    </ul>
-             
-             
-             
-              
+            <div class="contact-info-container">
+                <ul class="contact-info-list">
+                    <li>
+                        <img src="Vector (5).png" alt="" class="contact-icon"/>
+                        <span>Email:</span>
+                        <p>seunjohn@gmail.com</p>
+                    </li>
+                    <li>
+                        <img src="Vector (2).png" alt="" class="contact-icon"/>
+                        <span>Contact :</span>
+                        <p>(+234) 07045555555</p>
+                    </li>
+                    <li>
+                        <img src="distance.png" alt="" class="contact-icon"/>
+                        <span>Location :</span>
+                        <p>Lagos, Nigeria</p>
+                    </li>
+                    <li>
+                        <img src="Vector (3).png" alt="" class="contact-icon"/>
+                        <span>Date of Birth :</span>
+                        <p>04/08/1994</p>
+                    </li>
+                </ul>
             </div>
-          </div>
         </div>
-        <div
-          style="
-            width: 67%;
-            display: grid;
-            place-content: center;
-            padding: auto;
-          "
-        >
-          <div
-            style="
-              font-size: 16px;
-              font-weight: 600;
-              display: flex;
-              align-items: center;
-              border-radius: 10px;
-              border: 1px solid #ee3e38;
-              padding: 10px;
-              width: 100%;
-            "
-          >
-            <img
-              src="Vector (6).png"
-              alt=""
-              style="height: 15px; margin-right: 10px"
-            />
-            Pending Bookings
-          </div>
-          <div
-            style="display: grid; grid-template-columns: auto auto; gap: 50px"
-          >
-              
+        <div class="pending-bookings-container">
+            <div class="pending-bookings-title">
+                <img src="Vector (6).png" alt="" class="pending-bookings-icon"/>
+                Pending Bookings
             </div>
-          </div>
+            <div class="pending-bookings-list"></div>
         </div>
-      </section>
-    </main>
-  </body>
+    </section>
+</main>
+</body>
 </html>
