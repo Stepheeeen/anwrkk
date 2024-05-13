@@ -63,7 +63,7 @@
     
     /* Styling for about me container */
     .about-me-container {
-        width: 100%;
+        width: 39%;
     }
     
     /* Styling for about me */
@@ -75,26 +75,34 @@
         border-radius: 10px;
         margin-bottom: 20px;
     }
+    .about-me h2{
+            text-align: start;
+            width: 90%;
+    }
     
     /* Styling for about me text */
     .about-me-text {
-        width: 60%;
-        padding: 10px;
+        width: 80%;
+        padding: 20px;
         border: 1px solid #000;
         border-radius: 10px;
+        font-size: 18px;
+        overflow-y: auto;
     }
     
     /* Styling for contact info container */
-    .contact-info-container {
+        .contact-info-container {
         display: flex;
+        justify-content: center;
+        place-items: center;
         box-shadow: 0 0 8px -4px #000;
-        padding: 25px;
         border-radius: 10px;
     }
     
     /* Styling for contact info list */
     .contact-info-list {
         color: rgba(0, 0, 0, 0.5);
+        
     }
     
     /* Styling for contact icon */
@@ -129,17 +137,71 @@
     }
     
 ul{
-        width: 100%;
+        width: 90%;
 }
 
 ul li{
         display: flex;
-        justify-content: space-between;
-        width: 100%;
+        justify-content: space-around;
+        place-items: center;
+        width: 80%;
         align-items: center;
 }
 
+ul li div {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        row-gap: 15px;
+}
+
 ul li img{
-        width: 20px;
-        height: 25px;
+        width: auto;
+        height: auto;
+}
+
+@media screen and (max-width: 768px) {
+        .artisan-profile-cont{
+        flex-direction: column;
+        }
+        .about-me-container{
+        width: 100%;         
+        }
+        ul{
+        box-shadow:  0 0 8px -4px #000;
+        border-radius: 10px;
+        }
+        ul li{
+        width: 90%;     
+        padding-right: 10px;
+        }
+        .artisan-image {
+        margin-right: 35px;
+        }
+        .book-now-btn {
+        width: 100%;
+        margin-top: 30px;
+        }
+        .artisan-profile-cont{
+        width: 90%;    
+        margin-bottom: 20px;
+        }
+        .artisan-profile-cont{
+        box-shadow: none;
+        }
+        
+        .pending-bookings-container{
+         margin-top: 40px;     
+         width: 100%;
+        }
+        .pending-bookings-container{
+         width: 100%;
+        }
+        .pending-bookings-title{
+        width: 100%;
+        }
+        .about-me-text{
+        border: none;
+        margin-top: -10px;
+        }
 }
