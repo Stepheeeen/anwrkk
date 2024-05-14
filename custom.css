@@ -84,7 +84,6 @@
     .about-me-text {
         width: 80%;
         padding: 20px;
-        border: 1px solid #000;
         border-radius: 10px;
         font-size: 18px;
         overflow-y: auto;
@@ -159,6 +158,101 @@ ul li img{
         width: auto;
         height: auto;
 }
+
+ .container {
+            width: 59%; 
+            margin: 0 auto;
+        }
+      .container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            width: 90%;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #000;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+        }
+        .card img {
+            width: 50%;
+            height: 50%;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .card-content {
+            margin-top: 15px;
+        }
+        .card-content h2 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .card-content p {
+            margin: 5px 0;
+            color: #777;
+        }
+        .card-content .price {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 5px 10px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .card-content .comment-button {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        .card-content .rating {
+            color: red;
+            font-size: 1.2em;
+        }
+        @media (max-width: 768px) {
+                .card{
+                 flex-direction: column;
+                }
+                .card img{
+                 width: 50%;
+                 border-radius: 100%;
+                 height: 130px;
+                 align-self: center;
+                 margin-left: 20px;
+                }
+                .container{
+                 width: 100%;
+                }
+            .card-content h2 {
+                font-size: 1em;
+            }
+            .card-content .comment-button,
+            .card-content .price {
+                padding: 5px;
+            }
+        }
+        @media (max-width: 480px) {
+            .card-content h2 {
+                font-size: 0.9em;
+            }
+            .card-content .comment-button,
+            .card-content .price {
+                padding: 4px;
+            }
+        }
 
 @media screen and (max-width: 768px) {
         .artisan-profile-cont{
